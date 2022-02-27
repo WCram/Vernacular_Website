@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 html, body {
     height: 100%;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -72,9 +75,18 @@ nav #nav-bar {
     left: 0;
   }
 
+.darken {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+}
+
 #hero-image #hero-text {
     height: 400px;
-    width: 500px;
+    width: 550px;
     top: 35%;
     position: absolute;
     left: 10%;
@@ -85,7 +97,7 @@ nav #nav-bar {
 }
 
 #hero-text h2 {
-    font-size: 3.6rem;
+    font-size: 6rem;
 }
 
 #hero-text h4 {
@@ -100,14 +112,15 @@ nav #nav-bar {
 
 #bottom-content {
     margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
     height: 2000px;
     display: grid;
     grid-template-columns: 50% 50%;
+    column-gap: 5px;
 }
 
 .post {
     border: 1px solid black;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
