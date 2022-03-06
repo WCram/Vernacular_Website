@@ -226,7 +226,6 @@ nav #nav-bar {
 #lets-connect-container {
     padding-top: 125px;
     height: 700px;
-    border: 1px solid black;
 }
 
 .lets-connect-cta {
@@ -245,7 +244,7 @@ nav #nav-bar {
 }
 
 .lets-connect-partner {
-
+    margin-bottom: 20px;
 }
 
 .lets-connect-partner p {
@@ -264,7 +263,7 @@ nav #nav-bar {
     text-decoration: underline;
 }
 
-#flavor-text {
+.flavor-text {
     width: 1200px;
     margin: 0px auto;
     padding: 20px;
