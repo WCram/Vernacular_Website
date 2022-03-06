@@ -16,6 +16,11 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.container-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /* Navigation */
 
 nav {
@@ -114,7 +119,6 @@ nav #nav-bar {
 
 #bottom-content {
     margin: 10px auto;
-    width: 1200px;
     height: 2000px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -153,8 +157,6 @@ nav #nav-bar {
 
 #team-content {
     display: block;
-    width: 1200px;
-    margin: 0 auto;
     padding-top: 125px;
 }
 
@@ -186,4 +188,4 @@ nav #nav-bar {
     height: 200px;
 }
 
-/*------------------------ Home Page --------------------------*/
+/*------------------------ Connect  --------------------------*/
