@@ -27,6 +27,7 @@ nav {
     position: absolute;
     background-color: rgb(238, 238, 238);
     z-index: 1;
+    
 }
 
 nav #logo img {
@@ -54,7 +55,7 @@ nav #nav-bar {
     color: rgb(238, 238, 238);
 }
 
-
+/*------------------------ Home Page --------------------------*/
 
 /* Hero Image */
 
@@ -147,3 +148,42 @@ nav #nav-bar {
 .post img {
     width: 100%;
 }
+
+/*------------------------ Team --------------------------*/
+
+#team-content {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+#team-statement h2 {
+    margin-top: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#team-bios {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1.5rem;
+}
+
+.team-bio {
+    box-shadow: 2px 2px 5px grey;
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.team-bio img {
+    width: 60%;
+    height: 200px;
+}
+
+/*------------------------ Home Page --------------------------*/
