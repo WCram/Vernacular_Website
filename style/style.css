@@ -193,5 +193,40 @@ nav #nav-bar {
 #connect-container {
     padding-top: 125px;
     height: 1000px;
-    border: 1px solid black;
+}
+
+.connect-form {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.connect-form img {
+    width: 33%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.connect-form-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+.connect-form-button {
+    text-align: center;
+}
+
+.connect-form-button div {
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: lightpink;
+    display: inline-block;
+    padding: 20px 70px;
+    width: auto;
+    border-radius: 5px;
 }
