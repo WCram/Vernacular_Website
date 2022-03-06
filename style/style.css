@@ -125,16 +125,6 @@ nav #nav-bar {
     padding-bottom: 20px;
 }
 
-#flavor-text {
-    width: 1200px;
-    margin: 10px auto;
-    padding: 20px;
-    text-align: center;
-    font-style: italic;
-    font-size: 3rem;
-    color: grey;
-}
-
 .post {
     border: 1px solid black;
     width: 100%;
@@ -229,4 +219,57 @@ nav #nav-bar {
     padding: 20px 70px;
     width: auto;
     border-radius: 5px;
+}
+
+/* ---------------------- Let's Connect ---------------------- */
+
+#lets-connect-container {
+    padding-top: 125px;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.lets-connect-cta {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+#lets-connect-partners {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.lets-connect-partner {
+
+}
+
+.lets-connect-partner p {
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.lets-connect-partner a {
+    text-decoration: transparent;
+    font-weight: bold;
+    color: black;
+    transition: text-decoration 2s;
+}
+
+.lets-connect-partner a:hover {
+    text-decoration: underline;
+}
+
+#flavor-text {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    color: black;
 }
