@@ -197,6 +197,11 @@ nav #nav-bar {
 
 }
 
+.connect-form h5 {
+    display: block;
+    text-align: center;
+}
+
 .connect-form-content {
     width: 70%;
     margin: 0 auto;
