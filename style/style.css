@@ -119,10 +119,10 @@ nav #nav-bar {
 
 #bottom-content {
     margin: 10px auto;
-    height: 2000px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 5px;
+    padding-bottom: 20px;
 }
 
 #flavor-text {
@@ -189,3 +189,9 @@ nav #nav-bar {
 }
 
 /*------------------------ Connect  --------------------------*/
+
+#connect-container {
+    padding-top: 125px;
+    height: 1000px;
+    border: 1px solid black;
+}
