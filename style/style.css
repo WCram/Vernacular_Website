@@ -284,6 +284,8 @@ nav #nav-bar {
     color: black;
 }
 
+/*----------------------- Mobile------------------------------ */
+
 @media (max-width: 480px) {
     html {
         /* font-size: ; */
@@ -373,5 +375,26 @@ nav #nav-bar {
         width: 100%;
         grid-template-columns: 1fr;
         row-gap: 1rem;
+    }
+
+    /* Team */
+
+    #team-statement h2 {
+        font-size: 1.2rem;
+        padding: 0 20px;
+    }
+
+    #team-content {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #team-bios {
+        margin-top: 70px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 1.5rem;
     }
 }
