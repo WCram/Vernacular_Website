@@ -93,7 +93,7 @@ nav #nav-bar {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.9);
 }
 
 #hero-image #hero-text {
@@ -124,7 +124,7 @@ nav #nav-bar {
 }
 
 #bottom-content {
-    margin: 10px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 5px;
