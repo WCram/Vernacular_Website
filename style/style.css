@@ -252,7 +252,6 @@ nav #nav-bar {
 /* ---------------------- Let's Connect ---------------------- */
 
 #lets-connect-container {
-    padding-top: 125px;
     height: 700px;
 }
 
@@ -280,6 +279,11 @@ nav #nav-bar {
     font-size: 2.5rem;
 }
 
+.lets-connect-partner img {
+    padding: 20px 0;
+    width: 80%;
+}
+
 .lets-connect-partner a {
     text-decoration: transparent;
     font-weight: bold;
@@ -292,7 +296,8 @@ nav #nav-bar {
 }
 
 .flavor-text {
-    width: 1200px;
+    width: 100%;
+    column-span: all;
     margin: 0px auto;
     padding: 20px;
     text-align: center;
